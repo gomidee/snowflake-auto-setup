@@ -3,11 +3,6 @@ If you want to run a snowflake proxy but don't know where to start or how to go 
 
 All you need is a linux operating system and these scripts. They will remove any old versions if exist and install the newest versions of docker and docker compose on your system and you'll be ready to run a snowflake proxy in minutes. 
 
-Download any of the scripts below according to your OS by opening the termial and typing:
-```
-bash <(curl -s https://raw.githubusercontent.com/Enkidu-6/snowflake/main/script_name.sh)
-```
-
 ***You must either be root or use sudo to run them***
 
 For:
@@ -17,7 +12,7 @@ For:
 - Raspbian Buster 10 (oldstable)
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Enkidu-6/snowflake/main/docker-debian.sh)
+bash <(curl -s https://raw.githubusercontent.com/gomidee/snowflake-auto-setup/main/docker-debian.sh)
 ```
 
 For:
@@ -27,20 +22,20 @@ For:
 - Ubuntu Bionic 18.04 (LTS)
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Enkidu-6/snowflake/main/docker-ubuntu.sh)
+bash <(curl -s https://raw.githubusercontent.com/gomidee/snowflake-auto-setup/main/docker-ubuntu.sh)
 ```
 
 For:
 CentOS 7
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Enkidu-6/snowflake/main/docker-centos.sh)
+bash <(curl -s https://raw.githubusercontent.com/gomidee/snowflake-auto-setup/main/docker-centos.sh)
 ```
 
 For Almalinux 8 & 9
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/Enkidu-6/snowflake/main/docker-almalinux.sh)
+bash <(curl -s https://raw.githubusercontent.com/gomidee/snowflake-auto-setup/main/docker-almalinux.sh)
 ```
 
 **This script removes Podman for Almalinux as it's incompatible with docker.**
